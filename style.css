@@ -200,7 +200,7 @@ h1.name {
 	display: inline-block;
 	margin: 7px 5px;
 	vertical-align: top;
-	border-radius: 10px;
+	border-radius: 0px;
 	text-align: center;
 	padding-top: 50px
 }
