@@ -10,6 +10,7 @@
 
 
 
+
 /* Reset Styles */
 
 html, body, div, span, applet, object, iframe,
@@ -108,12 +109,14 @@ h1.name {
 	vertical-align: top;
 	background-color: #D9E7F8;
 	color: #4A90E2;
-	font-weight: 600;
+	font-weight: 400;
 	margin-top: 8px;
 	margin-left: 0px;
 	border-radius: 0px;
 	display: inline-block;
 	padding: 15px 25px;
+	font-size:48px;
+	
 }
 
 .email {
@@ -127,7 +130,7 @@ h1.name {
 .lead {
 	font-size: 44px;
 	font-weight: 300;
-	margin-top: 90px;
+	margin-top: 150px;
 	line-height: 55px;
 }
 
@@ -450,6 +453,90 @@ li .description {
 		margin-top: 2050px;
 	}
 	}
+	
+	
+/* Social Styles*/	
+	
+.ct-socials {
+    position: fixed;
+    top: 25%;
+    right: 0;
+    list-style: none;
+    padding-left: 0;
+    z-index: 10;
+    margin: 0;
+    -webkit-transition: right 0.25s ease-in-out;
+    transition: right 0.25s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.ct-socials li {
+    padding: 0px 0;
+}
+.ct-socials li a {
+    background: #3f4653;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    width: 44px;
+    height: 54px;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    float: right;
+    padding-left: 5px;
+}
+.ct-socials li a:hover {
+width: 54px;
+padding-left: 0;
+text-decoration: none;
+background: #3c9bd9;
+}
+.section.triad-section {
+  margin-top: 10px;
+}
+section.section h2 {
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 0;
+}
+}
+section.section p.sub-heading {
+    font-size: 16px;
+    font-family: "Gotham SSm A", "Gotham SSm B";
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+section.triad-section .triad-sub-section {
+    padding-right: 60px;
+}
+section p.detail-paragraph:first-child {
+    margin-top: 0;
+}
+section p.detail-paragraph {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 40px;
+    font-size: 18px;
+    color: #000;
+}
+b, strong {
+    font-weight: 700;
+}
+	
 
 
 /* End of all :P*/
