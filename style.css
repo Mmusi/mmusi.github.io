@@ -109,8 +109,8 @@ h1.name {
 	background-color: #D9E7F8;
 	color: #4A90E2;
 	font-weight: 600;
-	margin-top: 5px;
-	margin-left: 20px;
+	margin-top: 8px;
+	margin-left: 0px;
 	border-radius: 0px;
 	display: inline-block;
 	padding: 15px 25px;
@@ -127,7 +127,7 @@ h1.name {
 .lead {
 	font-size: 44px;
 	font-weight: 300;
-	margin-top: 60px;
+	margin-top: 90px;
 	line-height: 55px;
 }
 
