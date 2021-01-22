@@ -111,7 +111,7 @@ h1.name {
 	font-weight: 600;
 	margin-top: 5px;
 	margin-left: 20px;
-	border-radius: 5px;
+	border-radius: 0px;
 	display: inline-block;
 	padding: 15px 25px;
 }
@@ -291,7 +291,7 @@ ol::after {
 	border: 0px solid transparent;
 	border-right: 0;
 	border-left: 20px solid #31708F;
-  	border-radius: 3px;
+  	border-radius: 0px;
 }
 
 /* ---- Timeline elements ---- */
